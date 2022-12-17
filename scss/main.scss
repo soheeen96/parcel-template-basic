@@ -1,0 +1,14 @@
+$color-black : #000; 
+$color-white : #fff;
+
+body {
+    background: $color-black;
+    h1 {
+        color: $color-white;
+        display: flex;
+    }
+    img {
+        width: min(200px, 100%);
+        object-fit: cover;
+    }
+}
